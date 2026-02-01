@@ -26,7 +26,7 @@ body{
   display:flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 80px;
 }
 
 #yesButton{
@@ -36,7 +36,7 @@ body{
   border-color: white;
   font-size: medium;
   height: auto;
-  width: 70px;
+  width: 110px;
 
   transition: transform 0.4s ease;
 }  
@@ -48,7 +48,8 @@ body{
   border-color: white;
   font-size: medium;
   height: auto;
-  width: 70px;
+  width: 110px;
 
 }
+
 
