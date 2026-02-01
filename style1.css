@@ -34,9 +34,9 @@ body{
   color: white;
   border-radius: 10px;
   border-color: white;
-  font-size: medium;
+  font-size: 32px;
   height: auto;
-  width: 110px;
+  width: 250px;
 
   transition: transform 0.4s ease;
 }  
@@ -46,11 +46,12 @@ body{
   color: white;
   border-radius: 10px;
   border-color: white;
-  font-size: medium;
+  font-size: 32px;
   height: auto;
-  width: 110px;
+  width: 250px;
 
 }
+
 
 
 
