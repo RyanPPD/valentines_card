@@ -1,0 +1,54 @@
+body{
+  background-color:rgb(252, 217, 223);
+}
+
+
+.wrapper{
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  font-family: monospace ;
+  
+ }
+
+#gifs{
+  height: 300px;
+}
+
+
+#buttonCollection{
+  font-family: monospace ;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#yesButton{
+  background-color: rgb(88, 145, 88);
+  color: white;
+  border-radius: 10px;
+  border-color: white;
+  font-size: medium;
+  height: auto;
+  width: 70px;
+
+  transition: transform 0.4s ease;
+}  
+
+#noButton{
+  background-color: rgb(167, 77, 77);
+  color: white;
+  border-radius: 10px;
+  border-color: white;
+  font-size: medium;
+  height: auto;
+  width: 70px;
+
+}
+
