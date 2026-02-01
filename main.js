@@ -24,8 +24,9 @@ function reject(){
     document.getElementById("gifs").src = rejectionImgList[count%5];
     document.getElementById("noButton").innerHTML = rejectionWordList[count%3];
     count = count +1;
-    scale += 0.3;
+    scale += 0.5;
     document.getElementById("yesButton").style.transform = `scale(${scale})`;
     document.getElementById("buttonCollection").style.gap = (width*(scale)^0.5)+'px';
     
+
 }
